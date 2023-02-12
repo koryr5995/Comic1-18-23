@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+}
+
+.comicContainer{
+    border:solid black;
+    height:72vh;
+}
+
+.rowOne, .rowTwo{
+    border:solid black; 
+    height:45%;
+    margin:12px;
+    display:flex;
+    justify-content: space-between;
+}
+.block{
+    border:solid black;
+    width:33%;
+}
+.pic{
+    border:solid black;
+    width:100%;
+    height:70%;
+}
+.punchline{
+    height: 20%;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
